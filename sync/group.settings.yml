@@ -1,0 +1,4 @@
+use_admin_theme: true
+redirect_to: entity
+_core:
+  default_config_hash: 7ujYgPMshWo2inOv1E6h_dmEuM5Omp70qXXHujCrwpc

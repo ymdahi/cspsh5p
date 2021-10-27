@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: user
+label: User
+tags:
+  canonical_url: '[user:url]'
+  description: '[site:name]'
+  title: '[user:name]'
+_core:
+  default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
+uuid: f4a695c7-48d4-48c7-a4f2-c9db0bd967df

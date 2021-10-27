@@ -1,0 +1,6 @@
+label: Blog
+variant_settings:
+  blocks:
+    4f5bcbcb-f607-4e0d-b321-974260f72645:
+      label: 'Menu du compte de l''utilisateur'
+  page_title: Blog

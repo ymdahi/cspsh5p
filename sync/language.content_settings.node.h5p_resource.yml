@@ -1,0 +1,16 @@
+uuid: a1481aa0-660a-4737-8289-e928e59f2f66
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.h5p_resource
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.h5p_resource
+target_entity_type_id: node
+target_bundle: h5p_resource
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,21 @@
+uuid: 39ea0863-b26e-4804-b6bd-7a52d5b167f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+    - node.type.blog_post
+  module:
+    - gnode
+    - node
+_core:
+  default_config_hash: 5FasnQ--0Fcc86zs6LvuS0Hj5PkUEpqFKEaPbv1VOKA
+id: department-group_node-blog_post
+label: 'Department(s): Group node (Blog post)'
+description: 'Adds <em class="placeholder">Blog post</em> content to groups both publicly and privately.'
+group_type: department
+content_plugin: 'group_node:blog_post'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true

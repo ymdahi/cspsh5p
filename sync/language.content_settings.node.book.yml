@@ -1,0 +1,18 @@
+uuid: b59dad49-b4e3-4379-8cab-fa3aedb92222
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.book
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: 4m2LFhP_d1L5_ciUPviunFxzE-r9NlRl1i25QFBi_s8
+id: node.book
+target_entity_type_id: node
+target_bundle: book
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,8 @@
+allowed_type_book:
+  - book
+block:
+  navigation:
+    mode: 'all pages'
+child_type_book: book
+_core:
+  default_config_hash: ktZU13ICvnZ4TMRqAPdSBtlHPmyEoQVROVgrvKab_O0

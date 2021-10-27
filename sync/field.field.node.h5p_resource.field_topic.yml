@@ -1,0 +1,29 @@
+uuid: c40453a2-b182-44b4-86ec-000eb4675652
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_topic
+    - node.type.h5p_resource
+    - taxonomy.vocabulary.subjects
+id: node.h5p_resource.field_topic
+field_name: field_topic
+entity_type: node
+bundle: h5p_resource
+label: Topic
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      subjects: subjects
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

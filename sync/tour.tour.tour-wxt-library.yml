@@ -1,0 +1,24 @@
+id: tour-wxt-library
+module: wxt_library
+label: 'Tour the WxT Library section'
+routes:
+  -
+    route_name: wxt_library.admin_config_wxt_library
+tips:
+  introduction:
+    id: introduction
+    plugin: text
+    label: Introduction
+    body: 'This will help you explore the various ways to configure the WxT Bootstrap related libraries.'
+    weight: 1
+  edit-wxt-library:
+    id: edit-wxt-library
+    plugin: text
+    label: 'WxT Library'
+    body: 'This setting will change the rendered templates provided by WxT Bootstrap to the chosen theme.'
+    weight: 2
+    location: bottom
+    attributes:
+      data-id: edit-wxt-library
+_core:
+  default_config_hash: W_bQuXc58QBhiHrCZyRQbH1aTohFeErfDj6RIE4DUP0
