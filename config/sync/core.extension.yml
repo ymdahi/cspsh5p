@@ -17,6 +17,7 @@ module:
   ckeditor_codemirror: 0
   ckeditor_details: 0
   comment: 0
+  config: 0
   config_rewrite: 0
   config_translation: 0
   content_moderation: 0

@@ -16,6 +16,7 @@ ckeditor: 9.1.13
 ckeditor_codemirror: 2.3.0
 ckeditor_details: 2.0.3
 comment: 9.1.13
+config: 9.1.13
 config_rewrite: 1.4.0
 config_translation: 9.1.13
 content_moderation: 9.1.13
