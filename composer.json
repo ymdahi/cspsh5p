@@ -17,7 +17,9 @@
         "drupal/console": "~1.0",
         "drupal/access_by_ref": "^2.0",
         "drupal/menu_item_role_access": "^2.0",
-        "drupal/user_current_paths": "^2.0"
+        "drupal/user_current_paths": "^2.0",
+        "drupal/config_ignore": "^2.3",
+        "drupal/config_partial_export": "^1.6"
     },
     "require-dev": {
         "drupal/core-dev": "^9",
