@@ -98,7 +98,7 @@
                 "type:drupal-theme"
             ],
             "html/themes/custom/{$name}": [
-                "type:custom-theme"
+                "type:drupal-custom-theme"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
