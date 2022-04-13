@@ -27,7 +27,8 @@
         "drupal/lti_tool_provider": "^2.0",
         "drupal/gin_login": "^1.0",
         "drupal/gin": "^3.0@alpha",
-        "drupal/realname": "2.0.0-beta1"
+        "drupal/realname": "2.0.0-beta1",
+        "ymdahi/cspswxt": "dev-master"
     },
     "require-dev": {
         "drupal/core-dev": "^9",
@@ -44,14 +45,11 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packages.drupal.org/8",
-            "exclude": [
-                "drupal/h5p"
-            ]
+            "url": "https://packages.drupal.org/8"
         },
         {
             "type": "git",
-            "url": "https://github.com/centre-for-educational-technology/drupal-h5p.git"
+            "url": "https://github.com/ymdahi/cspswxt.git"
         },
         {
             "type": "composer",
@@ -98,6 +96,9 @@
             ],
             "html/themes/contrib/{$name}": [
                 "type:drupal-theme"
+            ],
+            "html/themes/custom/{$name}": [
+                "type:custom-theme"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
